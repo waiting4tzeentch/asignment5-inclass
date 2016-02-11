@@ -1,0 +1,23 @@
+<html>
+	<head>
+	</head>
+
+	<body ng-app="demon-name-windows">
+		<input type="text" ng-model="sometext" />
+		<h1> Hello </h1>
+		<h3>{{sometext}}</h3>
+
+		<div ng-controller="MainCntrol as mainController">
+			{{mainController.names}}
+		</div>
+
+		<!-- GET : scripts -->
+		<script src="bower_components/jquery/dist/jquery.js" type="text/javascript" ></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" ></script>
+		<script src="bower_components/angular/angular.min.js" type="text/javascript" ></script>
+
+		<script src="scripts/app.js" type="text/javascript" ></script>
+		<!-- END : Scripts -->
+	</body>
+
+</html>
